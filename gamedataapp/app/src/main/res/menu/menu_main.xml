@@ -1,0 +1,86 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/menu_game_name"
+        android:title="game name" />
+    <item android:id="@+id/menu_developer"
+        android:title="developer name" >
+
+    </item>
+    <item android:id="@+id/menu_publisher"
+        android:title="publisher name" />
+    <item
+        android:id="@+id/menu_languages"
+        android:title="languages" >
+        <menu >
+            <item android:id="@+id/English"
+                android:title="English"/>
+            <item android:id="@+id/Russian"
+                android:title="Russian"/>
+            <item android:id="@+id/French"
+                android:title="French"/>
+            <item android:id="@+id/Italian"
+                android:title="Italian"/>
+            <item android:id="@+id/German"
+                android:title="German"/>
+            <item android:id="@+id/Spanish"
+                android:title="Spanish"/>
+            <item android:id="@+id/Bulgarian"
+                android:title="Bulgarian"/>
+            <item android:id="@+id/Czech"
+                android:title="Czech"/>
+            <item android:id="@+id/Japanese"
+                android:title="Japanese"/>
+            <item android:id="@+id/Chinese"
+                android:title="Chinese"/>
+            <item android:id="@+id/Arabic"
+                android:title="Arabic"/>
+            <item android:id="@+id/Polish"
+                android:title="Polish"/>
+            <item android:id="@+id/Greek"
+                android:title="Greek"/>
+            <item android:id="@+id/Korean"
+                android:title="Korean"/>
+            <item android:id="@+id/Ukrainian"
+                android:title="Ukrainian"/>
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/menu_genre"
+        android:title="genre " >
+        <menu>
+            <item android:id="@+id/Action"
+                android:title="Action"></item>
+            <item android:id="@+id/Free_to_Play"
+                android:title="Free to Play"></item>
+            <item android:id="@+id/Massively_Multiplayer"
+                android:title="Massively Multiplayer"></item>
+            <item android:id="@+id/Adventure"
+                android:title="Adventure"></item>
+            <item android:id="@+id/Indie"
+                android:title="Indie"></item>
+            <item android:id="@+id/RPG"
+                android:title="RPG"></item>
+            <item android:id="@+id/Strategy"
+                android:title="Strategy"></item>
+            <item android:id="@+id/Simulation"
+                android:title="Simulation"></item>
+            <item android:id="@+id/Early_Access"
+                android:title="Early Access"></item>
+            <item android:id="@+id/Casual"
+                android:title="Casual"></item>
+            <item android:id="@+id/Racing"
+                android:title="Racing"></item>
+            <item android:id="@+id/Sports"
+                android:title="Sports"></item>
+
+        </menu>
+    </item>
+
+</menu>
